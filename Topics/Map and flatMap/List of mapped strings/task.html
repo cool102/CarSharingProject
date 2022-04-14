@@ -1,0 +1,12 @@
+<h2>List of mapped strings</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Given a list of strings:</p> 
+  <pre><code class="language-java">List&lt;String&gt; strings = Arrays.asList("a", "abc", "aa", "ccbb");</code></pre> 
+  <p>What elements does the resulting <code class="language-java">lengths</code> list contain?</p> 
+  <pre><code class="language-java">??? lengths = strings.stream()
+        .map(String::length)
+        .collect(Collectors.toList());</code></pre>
+ </body>
+</html>

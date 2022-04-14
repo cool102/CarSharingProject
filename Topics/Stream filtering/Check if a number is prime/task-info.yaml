@@ -1,0 +1,51 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+    import java.util.stream.*;
+
+    class PrimeNumbers {
+
+        /**
+         * Checking if a number is prime
+         *
+         * @param number to test >= 2
+         * @return true if number is prime else false
+         */
+        private static boolean isPrime(long number) {
+            // write your code here
+            return false;
+        }
+
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+
+            String line = scanner.nextLine().trim();
+
+            int n = Integer.parseInt(line);
+
+            System.out.println(isPrime(n) ? "True" : "False");
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2423#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 35. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    2
+
+    Correct output:
+    True
+
+    Your code output:
+    False
+  time: Tue, 05 Apr 2022 03:56:02 UTC
+record: -1

@@ -1,0 +1,13 @@
+<h2>Fruits</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Here is code with a stream:</p> 
+  <pre><code class="language-java">List&lt;String&gt; fruits = Arrays.asList("apple", "orange", "banana");
+
+long count = fruits.stream()
+        .map(word -&gt; word.substring(0, 1))
+        .count();</code></pre> 
+  <p>The count is ...</p>
+ </body>
+</html>

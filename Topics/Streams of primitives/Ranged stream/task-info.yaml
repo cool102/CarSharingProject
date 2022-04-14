@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Stream.ranged(start, end);
+- text: Stream.ranged(start, end + 1);
+- text: IntStream.range(start, end + 1);
+- text: IntStream.rangeClosed(start, end).boxed();
+- text: IntStream.rangeClosed(start, end - 1).boxed();
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8411#comment
+status: Solved
+record: -1

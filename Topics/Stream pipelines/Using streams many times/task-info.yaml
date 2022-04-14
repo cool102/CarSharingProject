@@ -1,0 +1,28 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.function.*;
+    import java.util.stream.*;
+
+    class FunctionUtils {
+
+        public static <T> Supplier<Stream<T>> saveStream(Stream<T> stream){
+            // write your code here
+        }
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4345#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 3. Runtime error\n\nThis is a sample test from the problem\
+    \ statement!\n\nTest input:\n1 2 3 4 5 6 7 8\nCorrect output:\n4\n8\n2\n\nYour\
+    \ code output:\n\n\nError:\nException in thread \"main\" java.lang.ClassCastException:\
+    \ class java.util.stream.ReferencePipeline$15 cannot be cast to class java.util.function.Supplier\
+    \ (java.util.stream.ReferencePipeline$15 and java.util.function.Supplier are in\
+    \ module java.base of loader 'bootstrap')\n\tat FunctionUtils.saveStream(Main.java:8)\n\
+    \tat Main.main(Main.java:18)\n"
+  time: Wed, 06 Apr 2022 10:03:15 UTC
+record: -1
